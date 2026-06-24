@@ -41,6 +41,18 @@ export default function QBrizPageContent() {
               >
                 Learn More
               </Link>
+              <Link
+                href="/pitch/qbriz-seed"
+                className="group relative px-8 py-4 bg-gradient-to-r from-[#7C3AED] to-[#06B6D4] text-white rounded-lg font-semibold hover:shadow-lg hover:shadow-purple-500/25 transition-all font-display text-lg overflow-hidden"
+              >
+                <span className="relative z-10 flex items-center gap-2">
+                  View Pitch Deck
+                  <svg className="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                  </svg>
+                </span>
+                <div className="absolute inset-0 bg-gradient-to-r from-[#8B5CF6] to-[#0891B2] opacity-0 group-hover:opacity-100 transition-opacity" />
+              </Link>
             </div>
           </div>
         </div>
